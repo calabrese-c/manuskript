@@ -299,7 +299,7 @@ class Character(searchableItem):
         """
         Assigns a random color the the character.
         """
-        color = randomColor(QColor(Qt.white))
+        color = QColor(Qt.white)
         self.setColor(color)
 
     def setColor(self, color):
