@@ -209,7 +209,7 @@ def infos(ref):
         # basic infos
         basic = []
         for i in [
-            (Character.motivation, safeTranslate(qApp, "references", "Motivation"), False),
+            (Character.motivation, safeTranslate(qApp, "references", "TESTivation"), False),
             (Character.goal, safeTranslate(qApp, "references", "Goal"), False),
             (Character.conflict, safeTranslate(qApp, "references", "Conflict"), False),
             (Character.epiphany, safeTranslate(qApp, "references", "Epiphany"), False),
